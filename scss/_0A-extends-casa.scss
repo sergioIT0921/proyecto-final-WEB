@@ -1,0 +1,65 @@
+/* es la seccion CASA de contenido HEADER*/
+
+// extenciones
+%casa-titulo{
+    font-weight: 400;
+    text-align: center;
+    padding: 50px 0;
+    color: #9A8A78;
+    font-size: 30px;
+}
+%linea{
+    border-top: 3px solid #9A8A78;
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+}
+%light-box{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.5);
+    transition: transform 1.9s ease-in-out;
+    width: 100%;
+    height: 80vh;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+}
+%next{
+    display: block;
+    background: #797066;
+    color: white;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    text-align: center;
+}
+%close{
+    display: block;
+    position: absolute;
+    top: 120px;
+    right: 200px;
+    background: #797066;
+    color: white;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+

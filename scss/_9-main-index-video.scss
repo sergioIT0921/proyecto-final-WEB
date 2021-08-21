@@ -1,0 +1,33 @@
+// es la seccion MAIN del index-  contenedor Video - oportunidad
+
+.contenedor-oportunidad{
+    height: 800px;
+    align-items: center;
+
+    .oportunidad-titulo{
+        display: table; 
+    
+        .contenedor-maquina{ 
+            position: relative;
+            text-align: center;
+            color: nth($letra-color, 6);
+
+            .maquina-item{
+                position: absolute;
+                border-left: 1px solid nth($letra-color, 6);
+                background: nth($fondo-color, 1);
+                right: 0;
+                width: 0;
+                animation: maquina 6s infinite alternate steps(30);
+            
+                @keyframes maquina{
+                    from{ width: 82%;}
+                    to{ width: 5%;}
+                }
+            }
+        }
+    }
+}
+
+
+

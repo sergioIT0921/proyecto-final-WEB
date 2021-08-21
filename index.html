@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Meta etiquetas / SEO -->
+    <meta name="description" content="Agencia inmobiliaria, propiedades, venta de casas y departamentos ">
+    <meta name="keywords" content="inmobiliaria, venta de casa, venta de departamentos">
+
+    <link rel="shortcut icon" href="img/LogoFavicon.jpg" type="image/x-icon">
+    
+    <!-- link de logos -->
+    <script src="https://kit.fontawesome.com/e5366f4f6c.js" crossorigin="anonymous"></script>
+    <!-- link animacion -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- en local BOOTSTRAP-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- estilo CSS -->
+    <link rel="stylesheet" href="css/estilo.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+
+    <title>Agencia inmobiliaria, Propiedades en Venta de casas y departamento</title>
+</head>
+    
+<body>
+    <div class="contenedor">
+
+        <!-- comienzo de header -->
+        <header>
+            <!-- Menu -->
+            <nav class=" navbar navbar-expand-lg navbar-dark p-0 ">
+
+                <div class="container-fluid p-2 m-0">
+
+                    <!-- logo -->
+                    <a class="navbar-brand  pl-4" href="index.html">
+                        <img src="img/LogoMakr-.png" alt="logo-web" class="logo-modificar animate__animated animate__backInRight" id="inic">
+                        <h1 class="logo-titulo maquina">Propiedades<span class="maquina-titulo">&#160;</span></h1>
+                    </a>
+
+                    <!-- menu desplegable con boton -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Menu de Navegacion">
+                        <span class="navbar-toggler-icon "></span>
+                    </button>
+
+                    <!-- menu de navegacion -->
+                    <div class="collapse navbar-collapse  d-lg-flex justify-content-lg-end " id="navbar">
+                        <ul class="navbar-nav p-2">
+                            <li class="nav-item active">
+                                <a class="nav-link"  href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link data-scroll" href="#nos" >Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link data-scroll" href="#ser" >Servicios</a>
+                            </li>
+                            <!-- sub-menu Casa-->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="menu-casas" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Casas
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="menu-casas">
+                                    <a class="dropdown-item sub-menu" href="link_public/casas.html">Casa - 1</a>
+                                    <a class="dropdown-item sub-menu" href="link_public/casas.html">Casa - 2</a>
+                                    <a class="dropdown-item sub-menu" href="link_public/casas.html">Casa - 3</a>
+                                </div>
+                            </li>
+                            <!-- sub-menu Departamento-->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="menu-departamento" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Departamento
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="menu-departamento">
+                                    <a class="dropdown-item sub-menu" href="link_public/departamentos.html">Departamento - 1</a>
+                                    <a class="dropdown-item sub-menu" href="link_public/departamentos.html">Departamento - 2</a>
+                                    <a class="dropdown-item sub-menu" href="link_public/departamentos.html">Departamento - 3</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="link_public/contacto.html">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link cerrar-sesion" href="link_public/login.html">Cerrar <br> Sesion</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- es un Carousel -->
+            <div class="header">
+                <div class=" container-fluid ">
+                    <div class="row">
+                        <div class="col-12 p-0">
+                            <div class="carousel slide" id="principial-carousel" data-ride="carousel" >
+            
+                                <!-- INDICADORES CANTIDAD DE IMAGENES -->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#principial-carousel" data-slide-to="0 active"></li>
+                                    <li data-target="#principial-carousel" data-slide-to="1"></li>
+                                    <li data-target="#principial-carousel" data-slide-to="2"></li>
+                                    <li data-target="#principial-carousel" data-slide-to="3"></li>
+                                    <li data-target="#principial-carousel" data-slide-to="4"></li>
+                                    <li data-target="#principial-carousel" data-slide-to="5"></li>
+                                </ol>
+            
+                                <!-- slider cpon IMG -->
+                                <div class="carousel-inner ">
+                                    <!-- slider 1 -->
+                                    <div class="carousel-item active ">
+                                        <div class="carousel-caption ">
+                                            <h4 class="text-item">Casa en la Playa</h4>
+                                        </div>
+                                        <img src="img/s1.jpg " class="w-100 img-fluid " alt="slider1">
+                                    </div> 
+                                    <!-- slider 2 -->
+                                    <div class="carousel-item ">
+                                        <div class="carousel-caption ">
+                                            <h4 class=" text-item">Casa en la Isla</h4>
+                                        </div>
+                                        <img src="img/s2.jpg " class="w-100 img-fluid" alt="slider2">
+                                    </div> 
+                                    <!-- slider 3 -->
+                                    <div class="carousel-item ">
+                                        <div class="carousel-caption">
+                                            <h4 class="text-item">Casa en la Montaña</h4>
+                                        </div>
+                                        <img src="img/s3.jpg " class="w-100 img-fluid" alt="slider3" >
+                                    </div>
+                                     <!--slider deptos 1  -->
+                                    <div class="carousel-item ">
+                                        <img src="img/depto1.jpg " class="w-100 img-fluid" alt="slider4" >
+                                    </div>
+                                    <!--slider deptos 2  -->
+                                    <div class="carousel-item ">
+                                        <img src="img/depto2.jpg " class="w-100 img-fluid" alt="slider5" >
+                                    </div>
+                                    <!--slider deptos 3  --> 
+                                    <div class="carousel-item ">
+                                        <img src="img/depto3.jpg " class="w-100 img-fluid" alt="slider6" >
+                                    </div>  
+                                </div>
+            
+                                <!-- INDICADORES DE FLECHA anterior y siguiente -->
+                                <a href="#principial-carousel" class="carousel-control-prev" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Anterior</span>
+                                </a>            
+                                <a href="#principial-carousel" class="carousel-control-next" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Siguiente</span>
+                                </a>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- fin de header -->
+        
+        <!-- Comienzo del MAIN -->
+        <main>
+            <div class="container contendor-border">
+                <!-- seccion sobre nosotros-->
+                <section class="m-0" id="nos"> 
+                    <div class="row contenedor-nosotros d-flex align-items-center m-0 p-0">
+                        <!-- nosotros imagen -->
+                        <div class="col-12 col-lg-6 m-0 p-0 nosotros-img animate__animated animate__zoomInUp ">
+                            <img src="img/nosotros.jpg" class="w-100 " alt="imagen-nosotros">
+                        </div>
+
+                        <!-- nosotros contenido -->
+                        <div class="col-12 col-lg-6 m-0 p-0 ">
+                            <div class="contenido-nosotros py-5">
+                                <h2 class="mb-4 contenido__titulo "  >Sobre Nosotros</h2>
+                                <p class="contenido__texto">Encontra tu nueva casa con nosotros, ofrecemos un servicio personalizado y de calidad para atenderte en todas tus necesidades sobre el mundo inmobiliario. Si necesitas asistencia, sentite en la comodidad de contactarnos que estaremos dispuestos a ayudarte.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            
+                <!-- seccion de servicios -->
+                <section id="ser">
+                    <div class=" contenedor-servicios">
+
+                        <!-- titulo de servicios -->
+                        <div class="row contenedor-titulo">
+                            <div class="col-12">
+                                <h3 class="text-center servicios-titulo display-4">Nuestros Servicios</h3>
+                            </div>
+                        </div>
+
+                        <!-- contenido de items de servicios -->
+                        <div class="row p-0  contenido-item ">
+
+                            <!-- item compra -->
+                            <div class="col-12 col-md-6 col-lg-3 m-0 compra animate__animated animate__backInRight">
+                                <img src="img/widg1.jpg" alt="servicio-compra" class="img-fluid widg-img w-100 h-auto">
+                                <div class="info-servicio p-4">
+                                    <h3>Compra</h3>
+                                </div>
+                            </div>
+
+                            <!-- item contrato -->
+                            <div class="col-12 col-md-6 col-lg-3 m-0 contrato animate__animated animate__backInRight">
+                                <img src="img/widg2.jpg" alt="servicio-contrato" class="img-fluid widg-img w-100 h-auto">
+                                <div class="info-servicio p-4">
+                                    <h3>Contrato</h3>
+                                </div>
+                            </div>
+
+                            <!-- item finaciacion -->
+                            <div class="col-12 col-md-6 col-lg-3  m-0 financ animate__animated animate__backInRight">
+                                <img src="img/widg3.jpg" alt="servicio-financiacion" class="img-fluid widg-img w-100 h-auto">
+                                <div class="info-servicio p-4">
+                                    <h3>Financiacion</h3>
+                                </div>
+                            </div>
+
+                            <!-- item planos -->
+                            <div class="col-12 col-md-6 col-lg-3 m-0 planos  animate__animated animate__backInRight">
+                                <img src="img/widg4.jpg" alt="servicio-planos" class="img-fluid widg-img w-100 h-auto">
+                                <div class="info-servicio p-4">
+                                    <h3>Planos</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- seccion de video -->
+                <section>
+                    <div class="row contenedor-oportunidad m-0 ">
+                        <div class="col-12 oportunidad-titulo ">
+                            <h2 class=" m-4 display-4 contenedor-maquina">Una de Nuestras Mansiones <span class="maquina-item">&#160;</span></h2>
+                        </div>
+                        <div class="col-12 opetunidad-video">
+                            <!-- <iframe width="100%" height="450" src="https://www.youtube.com/embed/5mOSyXPW4OM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                            <iframe width="100%" height="450px"  src='//players.brightcove.net/5699924528001/default_default/index.html?videoId=6163510834001' allowfullscreen frameborder=0></iframe>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <!-- fin de main -->
+
+        <!-- comienzo del FOOTER -->
+        <footer class="footer m-2">
+
+            <!-- Logo en footer -->
+            <div class="row footer-logo">
+                <div class="col-12 contemido-img ">
+                    <img src="img/LogoFoo.png" class="img-fluid w-25 h-100 img-footer" alt="logo-web">
+                </div>
+            </div>
+
+            <!-- Menu Navegacion Footer -->
+            <div class="row contenedor-footer">
+
+                <!-- enlaces de menu -->
+                <div class="col-12 col-md-4 col-lg-4 pt-4 m-auto footer__menu">
+                    <div class="text-color text-center">
+                        <h4 class="footer-titulo" >MENU</h4>
+                        <div class="menu-lista">
+                            <ul >
+                                <li class="nav-item"><a href="#inic" class="nav-link">Inicio</a></li>
+                                <li><a href="#nos" class="nav-link">Nosotros</a</li>
+                                <li><a href="#ser" class="nav-link">Servicios</a</li>
+                                <li><a href="link_public/casas.html" class="nav-link">Casas</a></li>
+                                <li><a href="link_public/departamentos.html" class="nav-link">Departamento</a></li>
+                                <li><a href="link_public/contacto.html" class="nav-link">Contacto</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- formulario de subcripcion -->
+                <div class="col-6 col-md-4 col-lg-4 pt-5 m-auto  footer__subcribite" >
+                    <div class="text-form">
+                        <form action="" id="for">
+                            <h4 class="footer-titulo" >SUBCRÍBETE</h4>
+                            <p class="text-center">Enterate de nuestra novedades...</p>
+
+                            <div class="form-group row border-input">
+                                <div class="col-12 mb-3 pt-3">
+                                    <label for="nombre">Nombre</label>
+                                    <input type="text" class="form-control " name="nombre" id="nombre" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group row border-input">
+                                <div class="col-12 mb-3">
+                                    <label for="email">Email</label>
+                                    <input type="email" class="form-control" name="email" id="email" required>
+                                </div>
+                            </div>
+
+                            <!-- Boton de enviar formulario -->
+                            <input type="submit" value="SUBCRIBETE" class="btn btn-outline-dark boton-hover mt-3 mb-3 btn-lg btn-block" >
+                        </form> 
+                    </div>                   
+                </div>
+                
+                <!-- Redes sociales -->
+                <div class="col-12 col-md-4 col-lg-4 pt-5 contemido-img contenido__sociales ">
+                    <div class="redes text-color ">
+                        <h4 class="footer-titulo ">SÍGUENOS</h4>
+                        <div class="logo-redes">
+                            <ul class="lista-redes ">
+                                <li><i class="fab fa-instagram icono-redes icono"></i></li>
+                                <li><i class="fab fa-twitter icono-redes icono" aria-hidden="true"></i></li>
+                                <li><i class="fab fa-facebook-f icono-redes icono" aria-hidden="true"></i></li>
+                            </ul> 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 final-footer">
+                    <h4 class="text-final">Desarrollo Web &copy; Sergio Castro</h4>
+                </div>
+            </div>      
+        </footer>
+        <!-- fin del footer -->
+    </div>
+    
+
+    <!-- JavaScript -->
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

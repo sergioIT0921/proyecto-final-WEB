@@ -1,0 +1,175 @@
+/* small */
+    
+@media (min-width:200px) and (max-width:543px)  {
+
+    .logo-modificar{
+        width: 130px;
+    
+    } 
+    .logo-titulo{
+        text-align: center;
+    }
+
+    // carousel
+
+    .carousel-inner{
+        .carousel-item{
+
+            img{
+                height: 350px;
+            }
+
+            .carousel-caption{
+
+                .text-item{
+                    font-size: 20px;
+                    margin-bottom: -5px;
+                    text-align: center;
+                    color: #b88585;
+                } 
+            }
+        }
+    }
+
+
+    .contenedor-servicios{
+
+        .contenedor-titulo{
+            padding: 20px;
+
+            .servicios-titulo{
+                font-size: 30px;
+                font-weight: 600;
+            }
+        }
+    }
+
+    .contenedor-oportunidad{
+
+        .oportunidad-titulo h2{
+            font-size: 30px;
+        }
+    }
+    
+
+    /*imagenes casas*/
+    .house2{
+
+        .contenedor{
+
+            .galeria2{
+                display: grid;
+                grid-template-rows: 350px;
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+                .grid--img{
+                    width: 350px;
+                    min-height: 350px;
+                    height: 100%;
+                    object-fit:cover;
+                
+            
+                    
+                    &:nth-child(1){
+                        grid-column-start: span 1;
+                        
+                    }
+                    &:nth-child(3){
+                        grid-row-start: span 1;
+                    }
+                    &:nth-child(4){
+                        grid-column-start: span 1;
+                        grid-row-start: span 1;
+                    }
+                    &:nth-child(6){
+                        grid-row-start: span 1;
+                    }
+                    &:nth-child(7){
+                        grid-column-start: span 1;
+                    }
+                    &:nth-child(8){
+                        grid-column-start: span 1;
+                        grid-row-start: span 1;
+                    }
+                }
+            
+            }
+        }
+
+    }
+    
+    
+
+
+}
+
+
+
+
+
+
+// .contenedor{
+    
+//     @media (min-width:200px) and (max-width:543px) {
+//         .logo-modificar{
+//             width: 130px;
+        
+//         }
+        
+        /*es el Carousel  */
+//         .header img{height:30vh ;}
+        
+//         .text-item{
+//             font-size: 20px;
+//             margin-bottom: -5px;
+//             text-align: left;
+//             color: #b88585;
+//         } 
+//         .servicios-titulo{
+//             font-size: 30px;
+//             font-weight: 600;
+//         }
+//         .oportunidad-titulo h2{
+//             font-size: 30px;
+
+//         }
+
+//         /* responsive de casas */
+//         .close{
+//             top: 150px;
+//             left: 550px;
+//         }
+//         .next{
+//         font-size: 50px;
+//         width: 100px;
+//         height: 100px;
+//         }
+//         .light-box:target{
+//             transform: scale(.3);
+//         }
+
+//         .galeria2{
+//             grid-template-columns: auto;
+//             margin: 0;
+//             padding: 0;
+//         }
+        
+//         .grid-galeria2:nth-child(1){
+//         grid-column-start: span 1;
+//         }
+//         .grid-galeria2:nth-child(3){
+//             grid-row-start: span 1;
+//         }
+//         .grid-galeria2:nth-child(4){
+//             grid-column-start: span 1;
+//             grid-row-start: span 1;
+//         }
+//         .grid-galeria2:nth-child(8){
+//             grid-row-start: span 1;
+//         }
+//         .grid-galeria2:nth-child(8){
+//             grid-column-start: span 1;
+//             grid-row-start: span 1;
+//         }
+//     }
+// }

@@ -1,0 +1,48 @@
+/* es la seccion footer del index-- redes sociales */
+
+.contenido__sociales{
+
+    .text-color{ 
+        color:#9A8A78; 
+
+        .footer-titulo {
+            color: nth($letra-color , 6); 
+            font-size: 30px;
+            text-align: center;
+            letter-spacing: 2px;
+        }
+        .logo-redes{
+            text-align: center;
+
+            .lista-redes{
+                display: inline-block;
+            
+                li{
+                    list-style: none;
+                    color: #9A8A78;
+                    font-size: 20px;
+                    line-height: 30px;
+                    display: inline-block;
+                
+                    .icono-redes{
+                        color: nth($letra-color , 7); 
+                        font-size: 35px;
+                        letter-spacing: 40px;
+                        padding-top: 10px;
+
+                        &:hover{
+                            color: nth($letra-color , 6); 
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+
+
+
+

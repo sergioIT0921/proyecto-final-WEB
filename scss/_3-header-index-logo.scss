@@ -1,0 +1,49 @@
+/* ------------------------------------------- */
+/*------ index.html ---------------- */
+/* ------------------------------------------- */
+/* HEADER */
+
+ /* logo */
+ .logo-modificar{
+    width: 25%;
+    animation-duration: 3s;  
+
+    @media (min-width:100px) and (max-width:543px) {
+        width: 100px;
+    }
+}
+.logo-titulo{ 
+    color:nth($letra-color,1); 
+    font-family: Arial; 
+    font-size: 15px;
+}
+.maquina{
+    position: relative;
+    padding-left:8px ;
+
+    .maquina-titulo{
+        position: absolute;
+        border-left: 1px solid nth($fondo-color, 1);
+        background: nth($fondo-color, 1);
+        right: 0;
+        width: 0;
+        animation: maqui 9s steps(60);
+
+        @keyframes maqui{
+            from{
+                width: 100%;
+            }
+            to{ width: 0%;}
+        }
+    }
+
+}
+
+
+
+    
+
+
+
+
+    

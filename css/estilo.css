@@ -1,0 +1,743 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{scroll-behavior: smooth;}
+
+body{
+    width: 100%;
+}
+
+.contenedor{
+    width: auto;
+    margin: 0 auto;
+    background-color: #353434;
+    height:auto;
+    font-family: Arial;
+    overflow: hidden;
+}
+/* ------------------------------------------- */
+/*------ index.html ---------------- */
+/* ------------------------------------------- */
+/* HEADER */
+    /* logo */
+        .logo-modificar{
+            width: 25%;
+            animation-duration: 3s;  
+        }
+        .logo-titulo{ 
+            color:#8b869c; 
+            font-family: Arial; 
+            font-size: 15px;
+        }
+        .maquina{
+            position: relative;
+            padding-left:8px ;
+        }
+        .maquina-titulo{
+            position: absolute;
+            border-left: 1px solid #353434;
+            background: #353434;
+            right: 0;
+            width: 0;
+            animation: maqui 9s steps(60);
+        }
+        @keyframes maqui{
+            from{
+                width: 100%;
+            }
+            to{ width: 0%;}
+        }
+
+    /* menu de navegacion */
+        .nav-link{letter-spacing: 1px;}
+
+        .nav-link:hover{
+            text-decoration:overline;
+            color:#796c5e;
+        }
+        .dropdown-menu{ background-color: #444040a6;}
+
+        .sub-menu{ color: white;}
+
+            .sub-menu:hover{
+                background-color:rgba(255,255,255,.1);
+                color: aliceblue;
+            }
+        .cerrar-sesion{
+            font-size: 10px;
+            line-height: 15px;
+        }
+            .cerrar-sesion:hover{text-decoration: none;}
+
+        
+    /*es el Carousel  */
+        /* .header img{height:50vh ;} */
+
+        .text-item{ font-size: 40px;color:#7e7771;}
+
+        .text-item:hover{ text-decoration: none;color: aliceblue;}
+
+/* MAIN */
+        .contendor-border{
+            margin-top: 100px;
+            padding: 5px;
+            border-top : 3px solid #9A8A78;
+            border-left: 3px solid #9A8A78;
+            border-right: 3px solid #9A8A78;
+        }
+    /* seccion sobre nosotros */
+        .contenedor-nosotros{
+            background-color: rgba(231, 231, 214, 0.773);
+            color: rgba(100, 100, 80, 0.944);
+        }
+        /* nosotros imagen */
+            .nosotros-img{ 
+                animation-duration: 5s; 
+                animation-delay: 2 ; 
+                animation-iteration-count: 2; 
+            }
+        /* nosotros contenido */
+            .contenido-nosotros {height: auto;}
+
+            .contenido__titulo{
+                display: flex;
+                justify-content: center;
+                letter-spacing: 2px;
+            }
+            .contenido__texto{
+                padding: 0 15px;
+                line-height: 27px;
+                line-height: 27px;
+            }
+    /* seccion de servicios */
+        .contenedor-servicios{
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        /* titulo de servicio */
+            .servicios-titulo{
+                margin-bottom: 30px;
+                color: rgb(156, 156, 125);
+                padding-top: 20px;
+            }
+        /* contenido de items de servicios */
+            .contenido-item { display: flex; } */
+
+            /* nombre de animacion */
+            .compra{ animation-duration:  4s;}
+            .contrato{animation-duration: 4s; animation-delay: 2s;}
+            .financ{animation-duration: 4s;animation-delay: 3.5s;}
+            .planos{animation-duration: 4s;animation-delay: 5s;}
+          
+            .widg-img{  opacity: .5;}
+                .widg-img:hover{opacity: 1;}
+
+        .info-servicio{
+            height: 100%;
+            max-height: 20px;
+            min-height: 199px;
+            background-color:rgba(255,255,255,.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: rgb(156, 156, 125);
+        }
+        .info-servicio:hover{background-color: #645950;} */
+    /* seccion de video */
+        .contenedor-oportunidad{
+            height: 800px;
+            align-items: center;
+        }
+            .oportunidad-titulo{
+                display: table; 
+            }
+            .contenedor-maquina{ 
+                position: relative;
+                text-align: center;
+                color: rgb(156, 156, 125);
+            }
+
+            .maquina-item{
+                position: absolute;
+                border-left: 1px solid rgb(156, 156, 125);
+                background: #353434;
+                right: 0;
+                width: 0;
+                animation: maquina 6s infinite alternate steps(30);
+            }
+                @keyframes maquina{
+                    from{ width: 82%;}
+                    to{ width: 5%;}
+                }
+
+/* FOOTER */
+    .footer { border-top: 2px solid #9A8A78; }
+    .foo-contacto {height: 100vh;}
+
+    /* logo en footer */
+        .contemido-img{ text-align: center;} 
+        
+        .img-footer{
+            width: 300px;
+            height: 200px;
+        }
+    
+    /* Info contacto */
+        /* Info Ubicacion e icono */
+            .footer-titulo{
+                color: #9A8A78;
+                font-size: 30px;
+                text-align: center;
+                letter-spacing: 2px;
+            }
+
+            .icono-contacto{
+                color: #9A8A78;
+                font-size: 25px;
+                letter-spacing: 20px;
+                padding-top: 10px;
+            }
+                .icono:hover{
+                    color: #524c45;
+                }
+
+     /* formulario de contacto */
+        .text-form{ color: #9A8A78;}
+    
+        /* completar formulario */
+            .border-input input{
+                background: none;
+                border: none;
+                border-bottom: 1px solid #9a8a78;
+                color: #be8383;
+            }
+                .border-input input:focus{
+                    background: none;
+                    border-bottom: #85786a;
+                    color: #be8383;
+                }
+                .border-input input:hover{
+                    background-color: #464340;
+                }
+        /* Boton de enviar formulario */
+            .boton-hover{ color:#9A8A78; }
+
+            .boton-hover:hover{ background-color: #9A8A78; }
+
+    /* Menu Navegacion Footer */
+        /* enlaces de menu */
+            .text-color{ color:#9A8A78; }
+
+            .text-color a{
+                text-decoration: none;
+                color:#9A8A78;
+                font-size: 15px;
+            }
+            li{
+                list-style: none;
+                color: #9A8A78;
+                font-size: 20px;
+                line-height: 30px;
+                display: block;
+            }
+
+        /* Redes sociales */
+
+            .lista-redes li{ display: block;}
+            .icono-redes{
+                color: #9A8A78;
+                font-size: 35px;
+                padding-top: 10px;
+                
+            }
+
+        /* final footer */
+        .final-footer{
+            border-top: 1px solid #9A8A78;
+            margin: 20px; 
+        }
+        .text-final{
+            color:#9A8A78;
+            padding-top: 25px;
+            text-align: center;
+            font-size: 20px;
+        }
+
+/* ------------------------------------------- */
+/* ------------------------------------------- */
+
+/* seccion HTML CASAS */
+
+    /* HEADER */
+        /* jumbotron */
+            .fondo2{
+                background: url(../img/jonbutron.jpg);
+                background-repeat: no-repeat, repeat-x;
+                background-attachment: fixed;
+                background-size:  cover;
+                background-position: center;
+                height: 400px;
+        }
+    /* MAIN */
+        /* seccion casa 1 */
+            .contenedor-casas{
+                height: auto;
+                margin: 0 auto;
+                text-align: center;
+            }
+            .casa-titulo{
+                font-weight: 400;
+                text-align: center;
+                padding: 50px 0;
+                color: #9A8A78;
+                font-size: 30px;
+            }
+            .linea{
+                border-top: 3px solid #9A8A78;
+                width: 95%;
+                display: block;
+                margin: 0 auto;
+            }
+            .galeria{
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                width: 85%;
+                margin: auto;
+                grid-gap: 10px;
+                padding: 40px 0;
+                overflow: hidden;
+            }
+            .galeria > a{
+                display: block;
+                position: relative;
+                overflow: hidden;
+                box-shadow: 0 0 6px rgba(0,0,0,.5);
+            }
+            .galeria img{
+                width: 100%;
+                vertical-align: top;
+                height: 300px;
+                object-fit:cover;
+                transition: transform 0.9s;
+            }
+             /* animaciones */
+                .galeria a:hover img{
+                    filter:blur(2px);
+                    transform: rotate(10deg) scale(1.2);
+                }
+
+            /* controles de next y rew */
+                .light-box{
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    background: rgba(0,0,0,.5);
+                    transition: transform 1.9s ease-in-out;
+                    width: 100%;
+                    height: 150vh;
+                    z-index: 1000;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    transform: scale(0);
+                }
+                    .light-box img{
+                        width: 90vh;
+                        max-height: 70vh;
+                    }
+                    .light-box:target{transform: scale(1); }
+
+            /* botones controles*/
+                .close{
+                    display: block;
+                    position: absolute;
+                    top: 120px;
+                    right: 200px;
+                    background: #797066;
+                    color: white;
+                    text-decoration: none;
+                    width: 40px;
+                    height: 40px;
+                    text-align: center;
+                    line-height: 40px;
+                    border-radius: 50px;
+                }
+                .next{
+                    display: block;
+                    background: #797066;
+                    color: white;
+                    height: 30px;
+                    width: 30px;
+                    line-height: 30px;
+                    text-decoration: none;
+                    text-align: center;
+                }
+
+        /* seccion casa 2 */
+            .galeria2{
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                grid-auto-rows: 350px;
+                row-gap: 15px;
+                column-gap:15px;
+                grid-auto-flow:dense;
+                padding: 20px;
+                width: 90%;
+                margin: auto;
+            }
+            .grid-galeria2{
+                transition: transform 0.9s;
+            }
+            
+            /* cambio de tamaño las imagenes seleccionadas */
+            .grid-galeria2:nth-child(1){
+                grid-column-start: span 2;
+            }
+            .grid-galeria2:nth-child(3){
+                grid-row-start: span 2;
+            }
+            .grid-galeria2:nth-child(4){
+                grid-column-start: span 2;
+                grid-row-start: span 2;
+            }
+            /* se agrego una hijo de 6 con row */
+            .grid-galeria2:nth-child(6){
+                grid-row-start: span 2;
+            }
+            /* se cambio el nuemero de hijo a 7 */
+            .grid-galeria2:nth-child(7){
+                grid-row-start: span 2;
+            }
+            .grid-galeria2:nth-child(8){
+                grid-column-start: span 4;
+                grid-row-start: span 2;
+            }
+            .grid--img{
+                width: 100%;
+                min-height: 350px;
+                height: 100%;
+                /* object-fit:none */
+                /* object-fit:cover; */
+            }
+
+            /* animaciones */
+            .galeria2 a:hover img{
+                filter:blur(0px);
+                transform: scale(0.95);
+            }
+/* ------------------------------------------------------ */
+/* ------------------------------------------------------ */
+/* seccion HTML DEPARTAMENTOS */
+
+    /* HEADER */
+        /* jumbotron */
+            .header-departamento{
+                width: 99%;
+                margin: auto;
+            }
+            .fondo3{
+                background: url(../img/departamento/portadadep.jpg);
+                background-repeat: no-repeat, repeat-x;
+                background-attachment: fixed, scroll;
+                background-size:cover;
+                height: 400px;
+                background-position: center;
+            }
+
+            .contenedor-departamento{
+                background: #343A40;
+                box-sizing: border-box;
+                width: auto; 
+                height: 200px; 
+                border: 1px solid bisque; 
+                margin: 0 auto;
+                display: flex;
+                flex-direction: row;
+            }
+            .contenedor-departamento a{
+                text-decoration: none; 
+                color: #9A8A78; 
+                font-size: 20px;
+                padding: 15px;
+            }
+            .departamento-item{
+                width: 100%; 
+                height: auto; 
+                border-right: 2px solid bisque;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .departamento-item:hover{background-color: #645950;}
+
+    /* MAIN */
+        .detalle-dept a{
+            color: #817464; 
+            letter-spacing: 1px;
+            word-spacing: 5px;
+        }
+        .detalle-icono{
+            padding-bottom: 15px;
+            padding-left: 20px;
+        }
+        .contenido__texto--consulta{
+            color: #817464;
+            font-size: 20px; 
+            font-family: cursive;
+        } 
+        .consulta-depto:hover{
+            text-decoration: none;
+            font-weight: 600;
+        }
+/* ------------------------------------------------------ */
+/* ------------------------------------------------------ */
+/* seccion HTML REGISTRO */
+    .fondo-registro{
+        font-family: Arial, Helvetica, sans-serif;   
+        margin: 0;
+        background-image: url(../img/reg-log.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed; 
+    }
+    .formulario{
+        background: rgb(247, 243, 243);
+        margin-top: 150px;
+        padding: 15px;
+        text-align: center;
+        width: 500px;
+    }
+    .contenedor-formulario{
+        width: 100%;
+        padding: 15px;
+    }
+    .form-input{
+        padding: 8px;
+        width: 300px;
+    }
+/* ------------------------------------------------------ */
+/* ------------------------------------------------------ */
+/* seccion HTML LOGIN */
+     /*el mismo que el registros las clases y con figuraciones  */
+
+/* small */
+@media (min-width:200px) and (max-width:543px) {
+    .logo-modificar{
+        width: 130px;
+       
+    }
+    
+    /*es el Carousel  */
+        .header img{height:30vh ;}
+    
+    .text-item{
+        font-size: 20px;
+        margin-bottom: -5px;
+        text-align: left;
+        color: #b88585;
+    } 
+    .servicios-titulo{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .oportunidad-titulo h2{
+        font-size: 30px;
+
+    }
+
+    .lista-redes li{display: inline-block; text-align: center; padding: 0 20px;}
+
+    /* responsive de casas */
+    .close{
+        top: 150px;
+        left: 550px;
+    }
+    .next{
+       font-size: 50px;
+       width: 100px;
+       height: 100px;
+    }
+    .light-box:target{
+        transform: scale(.3);
+    }
+
+    .galeria2{
+        grid-template-columns: auto;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .grid-galeria2:nth-child(1){
+    grid-column-start: span 1;
+    }
+    .grid-galeria2:nth-child(3){
+        grid-row-start: span 1;
+    }
+    .grid-galeria2:nth-child(4){
+        grid-column-start: span 1;
+        grid-row-start: span 1;
+    }
+    .grid-galeria2:nth-child(8){
+        grid-row-start: span 1;
+    }
+    .grid-galeria2:nth-child(8){
+        grid-column-start: span 1;
+        grid-row-start: span 1;
+    }
+
+    
+
+    /* -------------------------------------- */
+
+}
+
+/* medium */
+@media (min-width:544px) and (max-width:800px){
+
+     /*es el Carousel  */
+     .header img{height:40vh ;}
+
+    .text-item{
+        font-size: 30px;
+        text-align: left;
+        color: #b88585;
+    } 
+    .servicios-titulo{
+        font-size: 40px;
+    } 
+    .oportunidad-titulo > h2{
+        font-size: 30px;
+    }
+
+    .lista-redes li{display: inline-block; text-align: center; padding: 0 20px;}
+
+    /* responsive casa */
+    .close{
+        top: 20px;
+        right: 20px;
+    }
+    
+    .light-box:target{
+        transform: scale(.4);
+    }
+    .galeria2{
+        padding: 0;
+        margin: 0;
+    }
+    .galeria2 .grid--img{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1,1fr);
+    }
+    
+    .grid-galeria2:nth-child(1){
+    grid-column-start: span 1;
+    }
+    .grid-galeria2:nth-child(3){
+        grid-row-start: span 1;
+    }
+    .grid-galeria2:nth-child(4){
+        grid-column-start: span 1;
+        grid-row-start: span 1;
+    }
+    .grid-galeria2:nth-child(8){
+        grid-row-start: span 1;
+    }
+    .grid-galeria2:nth-child(8){
+        grid-column-start: span 1;
+        grid-row-start: span 1;
+    }
+    /* ------------- */   
+    .light-box:target{
+        transform: scale(.7);
+    }
+    .galeria2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    }
+    .grid-galeria2:nth-child(8){
+        grid-column-start: span 2;
+        grid-row-start: span 2;
+    }
+}
+
+/* large */
+@media (min-width:801px) and (max-width:991px){
+
+     /*es el Carousel  */
+     .header img{height:50vh ;}
+
+    .text-white {
+        font-size: 12px;
+    }
+    .oportunidad-titulo > h2{
+        font-size: 40px;
+    }
+
+    /* responsive de casas */
+    .close{
+        top: 20px;
+        right: 20px;
+    }
+    
+    .light-box:target{
+        transform: scale(.9);
+    }
+    .galeria2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    }
+    .grid-galeria2:nth-child(8){
+        grid-column-start: span 3;
+        grid-row-start: span 2;
+    }
+    .galeria2{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        }
+        .grid-galeria2:nth-child(8){
+            grid-column-start: span 3;
+            grid-row-start: span 2;
+        }
+    
+    
+}
+/* extra large */
+@media (min-width:992px) and (max-width:1300px){
+
+    /*es el Carousel  */
+    .header img{height:60vh ;}
+
+    .cont-imagen{
+        display: flex;
+    }
+    .contenedor-imagen{
+        padding: auto 0;
+    }
+    .info-servicio{
+        height: auto;
+    }
+    .contenedor-servicios{
+        height: 800px;
+    }
+    .text-white {
+        font-size: 100%;
+    }
+    .contenedor-servicios{
+        height: 800px;
+    }
+
+    
+    
+}
+
+
+
+

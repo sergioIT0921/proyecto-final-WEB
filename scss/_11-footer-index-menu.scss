@@ -1,0 +1,31 @@
+// es la seccion footer del index-- menu
+
+.footer__menu{
+
+    .footer-titulo{
+        color: nth($letra-color , 6); 
+        font-size: 30px;
+        text-align: center;
+        letter-spacing: 2px;
+    }    
+    .menu-lista{
+        
+        .nav-link{
+            letter-spacing: 1px;
+            color: nth($letra-color , 7); 
+
+            &:hover{
+                text-decoration:overline;
+                color:nth($letra-color , 6 )
+            }
+        }
+            
+        
+    }
+        
+    
+
+}
+
+
+

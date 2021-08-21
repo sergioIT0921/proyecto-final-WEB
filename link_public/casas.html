@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Meta etiquetas / SEO -->
+    <meta name="description" content="Agencia inmobiliaria, propiedades, venta de casas y departamentos ">
+    <meta name="keywords" content="inmobiliaria, venta de casa, venta de departamentos">
+
+    
+    <!-- link de logos -->
+    <script src="https://kit.fontawesome.com/e5366f4f6c.js" crossorigin="anonymous"></script>
+    <!-- link animacion -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- en local BOOTSTRAP-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- estilo CSS -->
+    <link rel="stylesheet" href="../css/estilo.css">
+    <!-- <link rel="stylesheet" href="../css/style.css"> -->
+
+    <title>Agencia inmobiliaria, Propiedades en Venta de casas y departamento</title>
+</head>
+    
+<body>
+    <div class="contenedor">
+        <!-- COMIENZO DEL HEADER -->
+        <header>
+            <!-- Menu -->
+            <nav class=" navbar navbar-expand-lg navbar-dark p-0 ">
+
+                <div class="container-fluid p-2 m-0">
+
+                    <!-- logo -->
+                    <a class="navbar-brand  pl-4" href="../index.html">
+                        <img src="../img/LogoMakr-.png" alt="logo-web" class="logo-modificar animate__animated animate__backInRight" id="inic">
+                        <h1 class="logo-titulo maquina">Propiedades<span class="maquina-titulo">&#160;</span></h1>
+                    </a>
+
+                    <!-- menu desplegable con boton -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Menu de Navegacion">
+                        <span class="navbar-toggler-icon "></span>
+                    </button>
+
+                    <!-- menu de navegacion -->
+                    <div class="collapse navbar-collapse  d-lg-flex justify-content-lg-end " id="navbar">
+                        <ul class="navbar-nav p-2">
+                            <li class="nav-item active">
+                                <a class="nav-link"  href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link data-scroll" href="../index.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link data-scroll" href="../index.html" >Servicios</a>
+                            </li>
+                            <!-- sub-menu Casa-->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="menu-casas" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Casas
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="menu-casas">
+                                    <a class="dropdown-item sub-menu" href="#casa1A">Casa - 1</a>
+                                    <a class="dropdown-item sub-menu" href="#casa2A">Casa - 2</a>
+                                    <a class="dropdown-item sub-menu" href="#casa2A">Casa - 3</a>
+                                </div>
+                            </li>
+                            <!-- sub-menu Departamento-->
+                            <li class="nav-item">
+                                <a class="nav-link data-scroll" href="departamentos.html" >Departamentos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- es un jumbotrom -->
+            <div class="header ">
+                <div class=" container-fluid m-0 p-0">
+                    <div class="row ">
+                        <div class="col-12 w-100">
+                            <div class="jumbotron-fluid p-0 ">
+                                <div class="fondo2"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- FIN DEL HEADER -->
+        
+        <!-- COMIENZO DEL MAIN -->
+        <main>
+            <!-- SECCION DE HOUSE 1 -->
+            <section class="house1">
+                <div class="contenedor-casas">
+                    <h2 id="casa1A" class="casa-titulo">Casa 1</h2>
+                    
+                    <!-- imagenes de casa 1 -->
+                    <span class="linea"></span>
+                    <section class="galeria">
+                        <a href="#casa1"><img src="../img/imagene-final-3/Bathrooms1.jpg" alt="casa-1"></a>
+                        <a href="#casa2"><img src="../img/imagene-final-3/bedroom1.jpg" alt="casa-2"></a>
+                        <a href="#casa3"><img src="../img/imagene-final-3/house1a.jpg" alt="casa-3"></a>
+                        <a href="#casa4"><img src="../img/imagene-final-3/house1b.jpg" alt="casa-4"></a>
+                        <a href="#casa5"><img src="../img/imagene-final-3/house1c.jpg" alt="casa-5"></a>
+                        <a href="#casa6"><img src="../img/imagene-final-3/Interiors1.jpg" alt="casa-6"></a>
+                        <a href="#casa7"><img src="../img/imagene-final-3/kitchen1.jpg" alt="casa-7"></a>
+                        <a href="#casa8"><img src="../img/imagene-final-3/bedroom1.jpg" alt="casa-8"></a>
+                    </section>
+                    
+                    <!-- controles de next y rew -->
+                    <!-- 1 -->
+                    <article class="light-box" id="casa1">
+                        <a href="#casa8" class="next"><i class="fas fa-arrow-left"></i></a>
+                        <img src="../img/imagene-final-3/Bathrooms1.jpg" class="imagen-mod" alt="casa1">
+                        <a href="#casa2" class="next"><i class="fas fa-arrow-right "></i></a>
+                        <a href="#" class="close">X</a>
+                    </article>
+                    <!-- 2 -->
+                    <article class="light-box" id="casa2">
+                        <a href="#casa1" class="next"><i class="fas fa-arrow-left"></i></a>
+                        <img src="../img/imagene-final-3/bedroom1.jpg" class="imagen-mod" alt="casa2">
+                        <a href="#casa3" class="next"><i class="fas fa-arrow-right"></i></a>
+                        <a href="#" class="close">X</a>
+                    </article>
+                    <!-- 3 -->
+                    <article class="light-box" id="casa3">
+                        <a href="#casa2" class="next"><i class="fas fa-arrow-left"></i></a>
+                        <img src="../img/imagene-final-3/house1a.jpg" class="imagen-mod" alt="casa3">
+                        <a href="#casa4" class="next"><i class="fas fa-arrow-right"></i></a>
+                        <a href="#" class="close">X</a>
+                    </article>
+                    <!-- 4 -->
+                    <article class="light-box" id="casa4">
+                        <a href="#casa3" class="next"><i class="fas fa-arrow-left"></i></a>
+                        <img src="../img/imagene-final-3/house1b.jpg" class="imagen-mod" alt="casa4">
+                        <a href="#casa5" class="next"><i class="fas fa-arrow-right"></i></a>
+                        <a href="#" class="close">X</a>
+                    </article>
+                    <!-- 5 -->
+                    <article class="light-box" id="casa5">
+                        <a href="#casa4" class="next"><i class="fas fa-arrow-left"></i></a>
+                        <img src="../img/imagene-final-3/house1c.jpg" class="imagen-mod" alt="casa5">
+                        <a href="#casa6" class="next"><i class="fas fa-arrow-right"></i></a>
+                        <a href="#" class="close">X</a>
+                    </article>
+                    <!-- 6 -->
+                    <article class="light-box" id="casa6">
+                        <a href="#casa5" class="next"><i class="fas fa-arrow-left"></i></a>
+                        <img src="../img/imagene-final-3/Interiors1.jpg" class="imagen-mod" alt="casa6">
+                        <a href="#casa7" class="next"><i class="fas fa-arrow-right"></i></a>
+                        <a href="#" class="close">X</a>
+                    </article>
+                    <!-- 7 -->
+                    <article class="light-box" id="casa7">
+                        <a href="#casa6" class="next"><i class="fas fa-arrow-left"></i></a>
+                        <img src="../img/imagene-final-3/kitchen1.jpg" class="imagen-mod" alt="casa7">
+                        <a href="#casa8" class="next"><i class="fas fa-arrow-right"></i></a>
+                        <a href="#" class="close">X</a>
+                    </article>
+                    <!-- 8 -->
+                    <article class="light-box" id="casa8">
+                        <a href="#casa7" class="next"><i class="fas fa-arrow-left"></i></a>
+                        <img src="../img/imagene-final-3/bedroom1.jpg" class="imagen-mod" alt="casa8">
+                        <a href="#casa1" class="next"><i class="fas fa-arrow-right"></i></a>
+                        <a href="#" class="close">X</a>
+                    </article>
+            
+                </div>
+            </section>
+            <!-- FIN SECCION CASAS 1 -->
+
+           <!-- SECCION DE CASA 2 -->
+            <section class="house2 container-fluid">
+                <div class="contenedor">
+                    <h2 id="casa2A" class="casa-titulo">Casa 2</h2>
+                    <span class="linea"></span>
+
+                    <div class=" galeria2 m-auto pt-2">
+
+                        <div class="grid-galeria2">
+                            <a href="#casa2-1"><img src="../img/imagene-final-3/Bathrooms2.jpg" alt="casa-2-A" class="grid--img"></a>
+                        </div>
+                        <div class="grid-galeria2">
+                            <a href="#casa2-2"><img src="../img/imagene-final-3/bedroom2.jpg" alt="casa-2-B" class="grid--img"></a>
+                        </div>
+                        <div class="grid-galeria2">
+                            <a href="#casa2-3"><img src="../img/imagene-final-3/house2a.jpg" alt="casa-2-C" class="grid--img"></a>
+                        </div>
+                        <div class="grid-galeria2">
+                            <a href="#casa2-4"><img src="../img/imagene-final-3/house2b.jpg" alt="casa-2-D" class="grid--img"></a>
+                        </div>
+                        <div class="grid-galeria2">
+                            <a href="#casa2-5"><img src="../img/imagene-final-3/house2c.jpg" alt="casa-2-E" class="grid--img"></a>
+                        </div>
+                        <div class="grid-galeria2">
+                            <a href="#casa2-6"><img src="../img/imagene-final-3/Interiors2.jpg" alt="casa-2-F" class="grid--img"></a>
+                        </div>
+                        <div class="grid-galeria2">
+                            <a href="#casa2-8"><img src="../img/imagene-final-3/bedroom2.jpg" alt="casa-2-G" class="grid--img"></a>
+                        </div>
+                        <div class="grid-galeria2">
+                            <a href="#casa2-7"><img src="../img/imagene-final-3/kitchen2.jpg" alt="casa-2-H" class="grid--img"></a>
+                        </div>
+                    </div>
+                
+                    <!-- controles de next y rew -->
+                    <!-- 2 -->
+                    <article class="light-box" id="casa2-1">
+                        <a href="#casa2-8" class="next"><i class="fas fa-arrow-left"></i></a>
+                        <img src="../img/imagene-final-3/Bathrooms2.jpg" class="imagen-mod" alt="casa-2-1">
+                        <a href="#casa2-2" class="next"><i class="fas fa-arrow-right icono"></i></a>
+                        <a href="#" class="close">X</a>
+                    </article>
+                    <!-- 2 -->
+                    <article class="light-box" id="casa2-2">
+                        <a href="#casa2-1" class="next"><i class="fas fa-arrow-left"></i></a>
+                        <img src="../img/imagene-final-3/bedroom2.jpg" class="imagen-mod" alt="casa-2-2">
+                        <a href="#casa2-3" class="next"><i class="fas fa-arrow-right"></i></a>
+                        <a href="#" class="close">X</a>
+                    </article>
+                    <!-- 3 -->
+                    <article class="light-box" id="casa2-3">
+                        <a href="#casa2-2" class="next"><i class="fas fa-arrow-left"></i></a>
+                        <img src="../img/imagene-final-3/house2a.jpg" class="imagen-mod" alt="casa-2-3">
+                        <a href="#casa2-4" class="next"><i class="fas fa-arrow-right"></i></a>
+                        <a href="#" class="close">X</a>
+                    </article>
+                    <!-- 4 -->
+                    <article class="light-box" id="casa2-4">
+                        <a href="#casa2-3" class="next"><i class="fas fa-arrow-left"></i></a>
+                        <img src="../img/imagene-final-3/house2b.jpg" class="imagen-mod" alt="casa-2-4">
+                        <a href="#casa2-5" class="next"><i class="fas fa-arrow-right"></i></a>
+                        <a href="#" class="close">X</a>
+                    </article>
+                    <!-- 5 -->
+                    <article class="light-box" id="casa2-5">
+                        <a href="#casa2-4" class="next"><i class="fas fa-arrow-left"></i></a>
+                        <img src="../img/imagene-final-3/house2c.jpg" class="imagen-mod" alt="casa-2-5">
+                        <a href="#casa6" class="next"><i class="fas fa-arrow-right"></i></a>
+                        <a href="#" class="close">X</a>
+                    </article>
+                    <!-- 6 -->
+                    <article class="light-box" id="casa2-6">
+                        <a href="#casa2-6" class="next"><i class="fas fa-arrow-left"></i></a>
+                        <img src="../img/imagene-final-3/Interiors2.jpg" class="imagen-mod" alt="casa-2-5">
+                        <a href="#casa2-7" class="next"><i class="fas fa-arrow-right"></i></a>
+                        <a href="#" class="close">X</a>
+                    </article>
+                    <!-- 7 -->
+                    <article class="light-box" id="casa2-7">
+                        <a href="#casa2-6" class="next"><i class="fas fa-arrow-left"></i></a>
+                        <img src="../img/imagene-final-3/kitchen2.jpg" class="imagen-mod" alt="casa-2-7">
+                        <a href="#casa2-8" class="next"><i class="fas fa-arrow-right"></i></a>
+                        <a href="#" class="close">X</a>
+                    </article>
+                    <!-- 8 -->
+                    <article class="light-box" id="casa2-8">
+                        <a href="#casa2-7" class="next"><i class="fas fa-arrow-left"></i></a>
+                        <img src="../img/imagene-final-3/bedroom2.jpg" class="imagen-mod" alt="casa-2-8">
+                        <a href="#casa2-1" class="next"><i class="fas fa-arrow-right"></i></a>
+                        <a href="#" class="close">X</a>
+                    </article>
+                </div>
+            </section>
+            <!-- FIN DE SECCION CASA 2 -->
+        </main>
+        <!-- FIN DEL MAIN -->
+
+        <!-- COMIENZO DEL FOOTER -->
+        <footer class="footer m-2">
+
+            <!-- Logo en footer -->
+            <div class="row ">
+                <div class="col-12 contemido-img ">
+                    <img src="../img/LogoFoo.png" class="img-fluid w-25 h-100 img-footer" alt="logo-web">
+                </div>
+            </div>
+
+            <!-- Menu Navegacion Footer -->
+            <div class="row contenedor-footer">
+
+                <!-- enlaces de menu -->
+                <div class="col-12 col-md-4 col-lg-4 pt-4 m-auto footer__menu">
+                    <div class="text-color text-center">
+                        <h4 class="footer-titulo" >MENU</h4>
+                        <div class="menu-lista">
+                            <ul >
+                                <li class="nav-item"><a href="../index.html" class="nav-link">Inicio</a></li>
+                                <li><a href="../index.html" class="nav-link">Nosotros</a</li>
+                                <li><a href="../index.html" class="nav-link">Servicios</a</li>
+                                <li><a href="casas.html" class="nav-link">Casas</a></li>
+                                <li><a href="departamentos.html" class="nav-link">Departamento</a></li>
+                                <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- formulario de subcripcion -->
+                <div class="col-6 col-md-4 col-lg-4 pt-5 m-auto  footer__subcribite" >
+                    <div class="text-form">
+                        <form action="" id="for">
+                            <h4 class="footer-titulo" >SUBCRÍBETE</h4>
+                            <p class="text-center">Enterate de nuestra novedades...</p>
+
+                            <div class="form-group row border-input">
+                                <div class="col-12 mb-3 pt-3">
+                                    <label for="nombre">Nombre</label>
+                                    <input type="text" class="form-control " name="nombre" id="nombre" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group row border-input">
+                                <div class="col-12 mb-3">
+                                    <label for="email">Email</label>
+                                    <input type="email" class="form-control" name="email" id="email" required>
+                                </div>
+                            </div>
+
+                            <!-- Boton de enviar formulario -->
+                            <input type="submit" value="SUBCRIBETE" class="btn btn-outline-dark boton-hover mt-3 mb-3 btn-lg btn-block" >
+                        </form> 
+                    </div>                   
+                </div>
+
+                <!-- Redes sociales -->
+                <div class="col-12 col-md-4 col-lg-4 pt-5 contemido-img contenido__sociales">
+                    <div class="redes text-color ">
+                        <h4 class="footer-titulo ">SÍGUENOS</h4>
+                        <div class="logo-redes">
+                            <ul class="lista-redes">
+                                <li><i class="fab fa-instagram icono-redes icono"></i></li>
+                                <li><i class="fas fa-envelope icono-redes icono" aria-hidden="true"></i></li>
+                                <li><i class="fas fa-mobile-alt icono-redes icono" aria-hidden="true"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 final-footer">
+                    <h4 class="text-final">Desarrollo Web &copy; Sergio Castro</h4>
+                </div>
+            </div>      
+        </footer>
+        <!-- FIN DEL FOOTER -->
+    </div>
+    
+
+    <!-- JS -->
+    <script src="../js/jquery-3.3.1.slim.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

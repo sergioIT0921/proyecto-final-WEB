@@ -1,0 +1,24 @@
+/* este el el carousel del index*/
+
+.carousel-inner{
+    .carousel-item{
+        .carousel-caption{
+            .text-item{
+                font-size: 40px;
+                color:nth($letra-color,4 );
+            
+                &:hover{ 
+                    text-decoration: none;
+                    color: nth($letra-color,3 );
+                } 
+
+
+            
+            }
+        }
+    }
+
+   
+    
+}
+

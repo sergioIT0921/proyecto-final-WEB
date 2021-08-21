@@ -1,0 +1,18 @@
+// es la seccion footer del index-- logo
+
+.footer {
+    border-top: 2px solid nth($border-color , 1); 
+
+    .footer-logo{
+        .contemido-img{ text-align: center; 
+        
+            .img-footer{
+                width: 300px;
+                height: 200px;
+            }
+        }
+    }
+}
+
+
+

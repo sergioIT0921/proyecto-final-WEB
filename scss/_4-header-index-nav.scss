@@ -1,0 +1,41 @@
+/* menu de navegacion */
+
+.nav-item{
+
+    .nav-link{
+        letter-spacing: 1px;
+
+        &:hover{
+            text-decoration:overline;
+            color:nth($letra-color, 2);
+
+        }
+    }
+    .dropdown-menu{ 
+        background-color: nth($fondo-color, 2);
+        
+        .sub-menu{ 
+            color: nth($letra-color, 3);
+        
+            &:hover{
+                background-color:nth($fondo-color, 3);
+                color: nth($letra-color, 3);
+                
+            }
+        }    
+    }
+        
+        .cerrar-sesion{
+            font-size: 10px;
+            line-height: 15px;
+
+            &:hover{
+                text-decoration: none;
+            }
+
+        }
+        
+
+}
+
+

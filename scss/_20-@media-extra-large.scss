@@ -1,0 +1,28 @@
+/* extra large */
+@media (min-width:992px) and (max-width:1800px){
+
+    /*es el Carousel  */
+    .header img{height:90vh ;}
+
+    .cont-imagen{
+        display: flex;
+    }
+    .contenedor-imagen{
+        padding: auto 0;
+    }
+    .info-servicio{
+        height: auto;
+    }
+    .contenedor-servicios{
+        height: 800px;
+    }
+    .text-white {
+        font-size: 100%;
+    }
+    .contenedor-servicios{
+        height: 800px;
+    }
+
+    
+    
+}

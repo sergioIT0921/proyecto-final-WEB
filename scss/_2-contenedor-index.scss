@@ -1,0 +1,251 @@
+/* contenedor del index - principal*/
+
+.contenedor{
+    width: auto;
+    margin: 0 auto;
+    background-color: nth($fondo-color, 1 );
+    height:auto;
+    font-family: Arial;
+    overflow: hidden;
+
+    @media (min-width:200px) and (max-width:543px) {
+        .galeria2{
+            display: grid;
+            grid-template-rows: 350px;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+            .grid--img{
+                width: 350px;
+                min-height: 350px;
+                height: 100%;
+                object-fit:cover;
+            
+        
+                
+                &:nth-child(1){
+                    grid-column-start: span 1;
+                    
+                }
+                &:nth-child(3){
+                    grid-row-start: span 1;
+                }
+                &:nth-child(4){
+                    grid-column-start: span 1;
+                    grid-row-start: span 1;
+                }
+                &:nth-child(6){
+                    grid-row-start: span 1;
+                }
+                &:nth-child(7){
+                    grid-column-start: span 1;
+                }
+                &:nth-child(8){
+                    grid-column-start: span 1;
+                    grid-row-start: span 1;
+                }
+            }
+        
+        }
+    }
+
+
+    @media (min-width:200px) and (max-width:543px) {
+        
+        /*es el Carousel  */
+        .header img{height:30vh ;}
+        
+        .text-item{
+            font-size: 20px;
+            margin-bottom: -5px;
+            text-align: left;
+            color: #b88585;
+        } 
+        .servicios-titulo{
+            font-size: 30px;
+            font-weight: 600;
+        }
+        .oportunidad-titulo h2{
+            font-size: 30px;
+    
+        }
+    
+        /* responsive de casas */
+        .close{
+            top: 150px;
+            left: 550px;
+        }
+        .next{
+           font-size: 50px;
+           width: 100px;
+           height: 100px;
+        }
+        .light-box:target{
+            transform: scale(.3);
+        }
+    
+        .galeria2{
+            grid-template-columns: auto;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .grid-galeria2:nth-child(1){
+        grid-column-start: span 1;
+        }
+        .grid-galeria2:nth-child(3){
+            grid-row-start: span 1;
+        }
+        .grid-galeria2:nth-child(4){
+            grid-column-start: span 1;
+            grid-row-start: span 1;
+        }
+        .grid-galeria2:nth-child(8){
+            grid-row-start: span 1;
+        }
+        .grid-galeria2:nth-child(8){
+            grid-column-start: span 1;
+            grid-row-start: span 1;
+        }
+    
+    }
+
+        /* medium */
+    @media (min-width:544px) and (max-width:800px){
+
+        /*es el Carousel  */
+        .header img{height:40vh ;}
+
+        .text-item{
+            font-size: 30px;
+            text-align: left;
+            color: #b88585;
+        } 
+        .servicios-titulo{
+            font-size: 40px;
+        } 
+        .oportunidad-titulo > h2{
+            font-size: 30px;
+        }
+
+        /* responsive casa */
+        .close{
+            top: 20px;
+            right: 20px;
+        }
+        
+        .light-box:target{
+            transform: scale(.4);
+        }
+        .galeria2{
+            padding: 0;
+            margin: 0;
+        }
+        .galeria2 .grid--img{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(1,1fr);
+        }
+        
+        .grid-galeria2:nth-child(1){
+        grid-column-start: span 1;
+        }
+        .grid-galeria2:nth-child(3){
+            grid-row-start: span 1;
+        }
+        .grid-galeria2:nth-child(4){
+            grid-column-start: span 1;
+            grid-row-start: span 1;
+        }
+        .grid-galeria2:nth-child(8){
+            grid-row-start: span 1;
+        }
+        .grid-galeria2:nth-child(8){
+            grid-column-start: span 1;
+            grid-row-start: span 1;
+        }
+        /* ------------- */   
+        .light-box:target{
+            transform: scale(.7);
+        }
+        .galeria2{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        }
+        .grid-galeria2:nth-child(8){
+            grid-column-start: span 2;
+            grid-row-start: span 2;
+        }
+    }
+
+    /* large */
+    @media (min-width:801px) and (max-width:991px){
+
+        /*es el Carousel  */
+        .header img{height:50vh ;}
+
+        .text-white {
+            font-size: 12px;
+        }
+        .oportunidad-titulo > h2{
+            font-size: 40px;
+        }
+
+        /* responsive de casas */
+        .close{
+            top: 20px;
+            right: 20px;
+        }
+        
+        .light-box:target{
+            transform: scale(.9);
+        }
+        .galeria2{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        }
+        .grid-galeria2:nth-child(8){
+            grid-column-start: span 3;
+            grid-row-start: span 2;
+        }
+        .galeria2{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            }
+            .grid-galeria2:nth-child(8){
+                grid-column-start: span 3;
+                grid-row-start: span 2;
+            }
+    
+    
+    }
+
+    /* extra large */
+    @media (min-width:992px) and (max-width:1800px){
+
+        /*es el Carousel  */
+        .header img{height:90vh ;}
+
+        .cont-imagen{
+            display: flex;
+        }
+        .contenedor-imagen{
+            padding: auto 0;
+        }
+        .info-servicio{
+            height: auto;
+        }
+        .contenedor-servicios{
+            height: 800px;
+        }
+        .text-white {
+            font-size: 100%;
+        }
+        .contenedor-servicios{
+            height: 800px;
+        }
+
+        
+    
+    }
+
+}

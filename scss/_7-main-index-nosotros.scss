@@ -1,0 +1,27 @@
+/* es la seccion de MAIN del index-- sobre nosotros*/
+
+.contenedor-nosotros{
+    background-color: nth($fondo-color , 4);
+    color: nth($letra-color , 5);
+    
+    .nosotros-img{ 
+        animation-duration: 5s; 
+        animation-delay: 2 ; 
+        animation-iteration-count: 2; 
+    }
+
+    .contenido-nosotros {
+        height: auto;
+        .contenido__titulo{
+            display: flex;
+            justify-content: center;
+            letter-spacing: 2px;
+        }
+        .contenido__texto{
+            padding: 0 15px;
+            line-height: 27px;
+            line-height: 27px;
+        }
+    }
+
+}

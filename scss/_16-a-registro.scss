@@ -1,0 +1,33 @@
+/* seccion HTML REGISTRO */
+
+/* seccion HTML LOGIN */
+     /*el mismo que el registros las clases y con figuraciones  */
+
+.fondo-registro{
+    font-family: Arial, Helvetica, sans-serif;   
+    margin: 0;
+    background-image: url(../img/reg-log.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+
+    .formulario{
+
+        background: rgb(247, 243, 243);
+        margin-top: 150px;
+        padding: 15px;
+        text-align: center;
+        width: 500px;
+
+        .contenedor-formulario{
+            width: 100%;
+            padding: 15px;
+    
+            .form-input{
+                padding: 8px;
+                width: 300px;
+            }
+            
+        }
+    }
+}

@@ -1,0 +1,45 @@
+/* es la seccion footer del index-- subcripcion */
+
+.footer__subcribite{
+
+    .text-form{
+        color: nth($letra-color , 7); 
+
+        .footer-titulo{
+            color: nth($letra-color , 6); 
+            font-size: 30px;
+            text-align: center;
+            letter-spacing: 2px;
+        }
+        .border-input input{
+            background: none;
+            border: none;
+            border-bottom: 1px solid nth($border-color,1 );
+            color: nth($letra-color , 6); 
+
+            &:focus{
+                background: none;
+                border-bottom: nth($border-color,1 );
+                color: nth($letra-color , 6); 
+            }
+            &:hover{
+                background-color: #464340;
+            }
+
+        }
+
+        .boton-hover{ 
+            color: nth($letra-color , 6); 
+
+            &:hover{ 
+                background-color: #9A8A78; 
+                color: nth($letra-color , 7); 
+            }
+
+        }
+    }
+
+
+}
+
+

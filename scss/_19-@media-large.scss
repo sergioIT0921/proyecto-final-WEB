@@ -1,0 +1,41 @@
+/* large */
+@media (min-width:801px) and (max-width:991px){
+
+    /*es el Carousel  */
+    .header img{height:50vh ;}
+
+   .text-white {
+       font-size: 12px;
+   }
+   .oportunidad-titulo > h2{
+       font-size: 40px;
+   }
+
+   /* responsive de casas */
+   .close{
+       top: 20px;
+       right: 20px;
+   }
+   
+   .light-box:target{
+       transform: scale(.9);
+   }
+   .galeria2{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   }
+   .grid-galeria2:nth-child(8){
+       grid-column-start: span 3;
+       grid-row-start: span 2;
+   }
+   .galeria2{
+       display: grid;
+       grid-template-columns: repeat(3,1fr);
+       }
+       .grid-galeria2:nth-child(8){
+           grid-column-start: span 3;
+           grid-row-start: span 2;
+       }
+   
+   
+}

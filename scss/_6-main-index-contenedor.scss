@@ -1,0 +1,9 @@
+/* es la seccion MAIN del index -- el contenedor*/
+
+.contendor-border{
+    margin-top: 100px;
+    padding: 5px;
+    border-top : 3px solid nth($border-color, 1);
+    border-left: 3px solid nth($border-color, 1);
+    border-right: 3px solid nth($border-color, 1);
+}

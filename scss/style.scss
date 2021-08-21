@@ -1,0 +1,55 @@
+    // instalar:
+        // npm init
+        // npm install -g sass
+        // npm install -D node-sass nodemon
+
+    // INICIALIZAR SCSS(sass)
+        //  sass --watch 
+            // completo ( sass --watch scss/estylo.scss css/estylo.css)
+    // -----------------------------------------------
+
+    @import '0A-extends-casa';
+// listo
+    @import '0B-lista-colores';
+// listo
+    @import '1-confiGeneral';
+//  listo  
+    @import '2-contenedor-index';
+//   listo 
+    @import '3-header-index-logo';
+//   listo 
+    @import '4-header-index-nav';
+//   listo 
+    @import '5-header-index-carousel';
+//  listo  
+    @import '6-main-index-contenedor';
+//  listo  
+    @import '7-main-index-nosotros';
+//   listo 
+    @import '8-main-index-servicios';
+//   listo 
+    @import '9-main-index-video';
+//  listo  
+    @import '10-footer-index-logo.scss';
+//  listo  
+    @import '11-footer-index-menu.scss';
+//  listo  
+    @import '12-footer-index-subcripcion.scss';
+//   listo
+    @import '13-footer-index-sociales.scss';
+//   listo 
+    @import '14-casa';
+//   listo 
+    @import '15-departamento';
+//  listo  
+    @import '16-contacto';
+//   listo 
+    @import '16-a-registro';
+//    
+    // @import '17-@media-small';
+//
+    // @import '18-@media-medium';
+//
+    // @import '19-@media-large';
+//
+    // @import '20-@media-extra-large';

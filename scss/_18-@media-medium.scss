@@ -1,0 +1,67 @@
+/* medium */
+@media (min-width:544px) and (max-width:800px){
+
+    /*es el Carousel  */
+    .header img{height:40vh ;}
+
+   .text-item{
+       font-size: 30px;
+       text-align: left;
+       color: #b88585;
+   } 
+   .servicios-titulo{
+       font-size: 40px;
+   } 
+   .oportunidad-titulo > h2{
+       font-size: 30px;
+   }
+
+   /* responsive casa */
+   .close{
+       top: 20px;
+       right: 20px;
+   }
+   
+   .light-box:target{
+       transform: scale(.4);
+   }
+   .galeria2{
+       padding: 0;
+       margin: 0;
+   }
+   .galeria2 .grid--img{
+   display: grid;
+   grid-template-columns: repeat(1,1fr);
+   grid-template-rows: repeat(1,1fr);
+   }
+   
+   .grid-galeria2:nth-child(1){
+   grid-column-start: span 1;
+   }
+   .grid-galeria2:nth-child(3){
+       grid-row-start: span 1;
+   }
+   .grid-galeria2:nth-child(4){
+       grid-column-start: span 1;
+       grid-row-start: span 1;
+   }
+   .grid-galeria2:nth-child(8){
+       grid-row-start: span 1;
+   }
+   .grid-galeria2:nth-child(8){
+       grid-column-start: span 1;
+       grid-row-start: span 1;
+   }
+   /* ------------- */   
+   .light-box:target{
+       transform: scale(.7);
+   }
+   .galeria2{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   }
+   .grid-galeria2:nth-child(8){
+       grid-column-start: span 2;
+       grid-row-start: span 2;
+   }
+}

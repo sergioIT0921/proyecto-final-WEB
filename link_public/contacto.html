@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- Meta etiquetas / SEO -->
+     <meta name="description" content="Agencia inmobiliaria, propiedades, venta de casas y departamentos ">
+     <meta name="keywords" content="inmobiliaria, venta de casa, venta de departamentos">
+
+    
+    <!-- link de logos -->
+    <script src="https://kit.fontawesome.com/e5366f4f6c.js" crossorigin="anonymous"></script>
+    <!-- link animacion -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- en local BOOTSTRAP-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- estilo CSS -->
+    <link rel="stylesheet" href="../css/estilo.css">
+    <!-- <link rel="stylesheet" href="../css/style.css"> -->
+
+    <title>Agencia inmobiliaria, Propiedades en Venta de casas y departamento</title>
+</head>
+    
+<body>
+    <div class="contenedor">
+        <!-- COMIENZO DEL HEADER -->
+        <header>
+            <!-- Menu -->
+            <nav class=" navbar navbar-expand-lg navbar-dark p-0 ">
+
+                <div class="container-fluid p-2 m-0">
+
+                    <!-- logo -->
+                    <a class="navbar-brand  pl-4" href="../index.html">
+                        <img src="../img/LogoMakr-.png" alt="logo-web" class="logo-modificar animate__animated animate__backInRight" id="inic">
+                        <h1 class="logo-titulo maquina">Propiedades<span class="maquina-titulo">&#160;</span></h1>
+                    </a>
+
+                    <!-- menu desplegable con boton -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Menu de Navegacion">
+                        <span class="navbar-toggler-icon "></span>
+                    </button>
+
+                    <!-- menu de navegacion -->
+                    <div class="collapse navbar-collapse  d-lg-flex justify-content-lg-end " id="navbar">
+                        <ul class="navbar-nav p-2">
+                            <li class="nav-item active">
+                                <a class="nav-link"  href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link data-scroll" href="../index.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link data-scroll" href="../index.html" >Servicios</a>
+                            </li>
+                            <!-- sub-menu Casa-->
+                            
+                            <li class="nav-item">
+                                <a class="nav-link data-scroll" href="casas.html" >Casas</a>
+                            </li>
+                            <!-- sub-menu Departamento-->
+                            <li class="nav-item">
+                                <a class="nav-link data-scroll" href="departamentos.html" >Departamentos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#for">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- es un jumbotrom -->
+            <div class="header ">
+                <div class=" container-fluid m-0 p-0">
+                    <div class="row ">
+                        <div class="col-12 w-100">
+                            <div class="jumbotron-fluid p-0 ">
+                                <div class="fondo2"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- FIN DEL HEADER -->
+        
+
+        <!-- COMIENZO DEL FOOTER -->
+        <footer class="footer foo-contacto m-2">
+
+            <!-- Logo en footer -->
+            <div class="row ">
+                <div class="col-12 contemido-img ">
+                    <img src="../img/LogoFoo.png" class="img-fluid w-25 h-100 img-footer" alt="logo de pagina">
+                </div>
+            </div>
+
+            <!-- Info contacto -->
+            <div class="row">
+                <!-- Info Ubicacion e icono -->
+                <div class="col-12  pt-5 m-auto">
+                    <h3 class="footer-titulo">Contacto</h3>
+                    <div class="text-center">
+                        <ul>
+                            <li><i class="fas fa-house-user icono-contacto" aria-hidden="true"></i>San Francisco, CABA 94158</li>
+                            <li><i class="fas fa-envelope icono-contacto" aria-hidden="true"></i>info@SCpropiedades.com</li>
+                            <li><i class="fas fa-mobile-alt icono-contacto" aria-hidden="true"></i>11-5559-4400</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- ubicacion en mapa -->
+                <!-- <div class="row">
+                    <div class="col">
+                        <div class="mapa">
+
+                        </div>
+                    </div>
+                </div> -->
+
+                </div>
+
+                <!-- formulario de contacto -->
+                <div class="col-6 pt-5 m-auto text-form" >
+                    <form action="" id="for" method="GET">
+
+                        <!-- completar formualario -->
+                        <div class="form-group row border-input">
+                            <div class="col-12 col-md-6 mb-3 ">
+                                <label for="nombre">Nombre</label>
+                                <input type="text" class="form-control " name="nombre" id="nombre"required>
+                            </div>
+                            <div class="col-12 col-md-6 mb-3">
+                                <label for="apellido">Apellido</label>
+                                <input type="text" class="form-control" name="nombre" id="nombre"required>
+                            </div>
+                        </div>
+
+                        <div class="form-group row border-input">
+                            <div class="col-12 mb-3">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" name="email" id="email"required>
+                            </div>
+                        </div>
+
+                        <div class="form-group row border-input">
+                            <div class="col-12 col-md-6  mb-3">
+                                <label for="telefono">Telefono</label>
+                                <input type="number" class="form-control" name="telefono" required>
+                            </div>
+                            <div class="col-12 col-md-6  mb-3">
+                                <label for="domicilio">Domicilio</label>
+                                <input type="text" class="form-control" name="domicilio" required>
+                            </div>
+                        </div>
+
+                        <!-- Boton de enviar formulario -->
+                        <input type="submit" value="Enviar" class="btn btn-outline-dark boton-hover mt-3 mb-3 btn-lg btn-block" >
+                    </form>                    
+                </div>
+
+                <div class="col-12 final-footer">
+                    <h4 class="text-final">Desarrollo Web &copy; Sergio Castro</h4>
+                </div>
+            </div>
+        </footer>
+        <!-- FIN DEL FOOTER -->
+    </div>
+    
+
+    <!-- JS -->
+    <script src="../js/jquery-3.3.1.slim.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

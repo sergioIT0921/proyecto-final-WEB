@@ -1,0 +1,64 @@
+/* es la seccion CONTACTO*/
+
+.foo-contacto {height: 100vh;}
+.footer-titulo{
+    color: #9A8A78;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+/* INFO DE CONTACTO*/
+li{
+    list-style: none;
+    color: #9A8A78;
+    font-size: 20px;
+    line-height: 30px;
+
+    .icono-contacto{
+        color: #9A8A78;
+        font-size: 25px;
+        letter-spacing: 20px;
+        padding-top: 10px;
+    
+        &:hover{
+            color: #524c45;
+        }
+    }
+
+} 
+
+/*formulario de contacto*/
+
+.text-form{ 
+    color: #9A8A78;
+
+    .border-input input{
+        background: none;
+        border: none;
+        border-bottom: 1px solid #9a8a78;
+        color: #be8383;
+
+        &:focus{
+            background: none;
+            border-bottom: #85786a;
+            color: #be8383;
+        }
+        &:hover{
+            background-color: #464340;
+        } 
+    }
+        
+    .boton-hover{ 
+        color:#9A8A78;
+
+        &:hover{ 
+            background-color: #9A8A78; 
+            color:#ebd6bf;
+        }
+
+    }
+
+      
+
+}

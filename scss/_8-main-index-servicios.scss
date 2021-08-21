@@ -1,0 +1,104 @@
+// es la seccion MAIN del index-  contenedor servicios
+
+// extencion
+%info-servicio {
+    height: 100%;
+    max-height: 20px;
+    min-height: 199px;
+    background-color:nth($fondo-color, 3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: nth($letra-color, 6);
+}
+
+/* seccion de servicios */
+.contenedor-servicios{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+    /* titulo de servicio */
+    .contenedor-titulo{
+        .servicios-titulo{
+            margin-bottom: 30px;
+            color: nth($letra-color, 6);
+            padding-top: 20px;
+        }
+    }
+
+    /* contenido de items de servicios */
+    .contenido-item { display: flex; 
+        
+        .compra{ 
+            animation-duration:  4s;
+            .widg-img{ 
+                opacity: .5;
+                &.widg-img:hover{
+                    opacity: 1;
+                }
+            }
+            .info-servicio{
+                @extend %info-servicio;
+
+                &:hover{
+                    background-color: nth($fondo-color, 5);
+                }
+            }
+        }
+        .contrato{
+            animation-duration: 4s; animation-delay: 2s;
+            .widg-img{ 
+                opacity: .5;
+                &.widg-img:hover{
+                    opacity: 1;
+                }
+            }
+            .info-servicio{
+                @extend %info-servicio;
+
+                &:hover{
+                    background-color: nth($fondo-color, 5);
+            }
+            }
+            
+        } 
+
+        .financ{
+            animation-duration: 4s;animation-delay: 3.5s;
+            .widg-img{ 
+                opacity: .5;
+                &.widg-img:hover{
+                    opacity: 1;
+                }
+            }
+            .info-servicio{
+                @extend %info-servicio;
+
+                &:hover{
+                    background-color: nth($fondo-color, 5);
+            }
+            }
+        }
+        .planos{
+            animation-duration: 4s;animation-delay: 5s;
+
+            .widg-img{ 
+                opacity: .5;
+                &.widg-img:hover{
+                    opacity: 1;
+                }
+            }
+            .info-servicio{
+                @extend %info-servicio;
+
+                &:hover{
+                    background-color: nth($fondo-color, 5);
+            }
+            }
+        }            
+    }
+}
